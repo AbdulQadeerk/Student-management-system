@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "885867061665",
+    "firebase_url": "https://encdecsms-84920.firebaseio.com",
+    "project_id": "encdecsms-84920",
+    "storage_bucket": "encdecsms-84920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885867061665:android:d413c6fa8f3d4010",
+        "android_client_info": {
+          "package_name": "com.example.encdecsms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885867061665-hlpavef3jrvrqcg3vnq4kae7hdm7q105.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DEh4kBLrrTYOZo99yVIoLTj8Kn0KCqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885867061665-hlpavef3jrvrqcg3vnq4kae7hdm7q105.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

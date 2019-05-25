@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="20dp"
+    android:minHeight="50dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/parent"
+        android:background="@color/white"
+
+        >
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/colorPrimary"
+            android:text=""
+            android:alpha="1"
+            />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#424242"
+            android:textSize="14sp"
+            android:text=""
+            android:id="@+id/message"
+
+            />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/doc"
+            android:orientation="horizontal"
+            >
+           <TextView
+                android:layout_gravity="top"
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#616161"
+                android:textSize="16sp"
+                android:text="hello"
+                android:id="@+id/docName"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="#90A4AE"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:textColor="#90A4AE"
+            android:text=""/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
